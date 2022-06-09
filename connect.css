@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    background-color: rgb(241,224,221);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+#block{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    float: left;
+    padding: 40px;
+    margin: 5px;
+    border: solid;
+ 
+    aspect-ratio: 1;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    position: relative;
+   
+    height: 500px;
+    padding: 2px;
+  
+    
+}
+
+h1{
+    position: relative;
+    bottom: 40px;
+}
+
+#winner{
+    position: relative;
+    bottom: 20px;
+}
+
+
